@@ -1,0 +1,16 @@
+
+[monkey]
+apk.package=com.baidu.baidulife
+test.finish=1970-01-01 08:00:00
+series.id=4f2529a8-958a-4e2c-bb54-b389f35a3e5c
+status=FAIL
+apk.version=3.1.0
+test.duration.expect=28800
+test.start=2013-09-13 13:25:16
+executor=
+test.duration.actual=0
+test.id=cc67e00c-12d7-403d-8d2c-1c1d7f4d8e42
+command=monkey -p com.baidu.baidulife -s -2671606737749356802 --throttle 300 -c android.intent.category.MONKEY -c android.intent.category.LAUNCHER -c android.intent.category.DEFAULT --monitor-native-crashes --kill-process-after-error --pct-touch 43 --pct-motion 30 --pct-majornav 10 --pct-syskeys 15 --pct-appswitch 2 -v -v -v 99999
+series.duration.expect=28800
+
+[device]
